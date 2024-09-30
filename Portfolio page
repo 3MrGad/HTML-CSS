@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio -Amr Ahmed Mohamed Gadallah</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <meta name="description" content="this is a Portfolio Page">
+    <link rel="stylesheet" href="portfolio project.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Amr Ahmed Mohamed Gadallah</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- --------------------------------------->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! my main purpose is cybersecurity in a penteration testing for all products, Malware Analysis, Red teaming and I'm a passionate for learning all techs like:web development (backend,frontend) ,mobile application,embedded systems,iot,cloud,networking,operating sytems,Ai.</p>
+        <p>and I think It's nessesary to study a computer from basics of electricity Even to what the user sees in the end . Passing by Hardware ,computer architecture,Operating systems,networking.</p>
+      </div>
+    </section>
+    <!-- ----------------------------------------->
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <h3>HTML</h3>
+          </div>
+          <div class="skill">
+            <h3>CSS</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------------------------------->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="project">
+            <h3>Portfolio page</h3>
+              <p>I made a portfolio page with only HTML,and it has header ,about ,My projects, contact.</p>
+          </div>
+          <div class="project">
+            <h3>Contact form</h3>
+              <p>put your first name ,last name ,email ,phone ,select your gender and write a message.</p>
+          </div>
+          <div class="project">
+            <h3>Login page</h3>
+              <p>put your name and password to verfiy the authentication.</p>
+          </div>
+          <div class="project">
+            <h3>Registration Form</h3>
+              <p>put your first name ,last name ,email ,password ,phone ,country ,age and click submit.</p>
+          </div>
+          <div class="project">
+            <h3>select a book page</h3>
+              <p>select a book and put a feedback.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------------------------------------->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to drop a message.</p>
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <!---------------------------------------------------------->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Amr Gadallah. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
